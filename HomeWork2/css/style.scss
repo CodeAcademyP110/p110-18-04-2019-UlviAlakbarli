@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(143, 255, 255, 0.774);
+    color: rgb(8, 43, 43);
+    font-family: 'Nunito', sans-serif;
+    .gallery{
+        border:1px solid rgb(4, 27, 27);
+        img{
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin:10px;
+        }
+        .music{
+            padding: 10px 20px;
+            display: inline-block;
+        }
+    }
+    .drop-area{
+        
+        border-radius: 15px;
+        padding:100px 200px;
+        display: inline-block;
+        background-color: rgb(16, 212, 212);
+        transition: 0.4s all ease-in-out;
+        i{
+            font-size: 40px;
+            cursor: pointer;
+            transition: 0.4s all ease-in-out;
+            &:hover{
+                transform: translateY(-30%);
+
+            }
+        }
+        &:hover{
+            background-color: rgb(9, 116, 116);
+            color: white;
+           
+        }
+    }
+}

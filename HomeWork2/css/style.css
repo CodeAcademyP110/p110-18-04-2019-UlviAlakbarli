@@ -1,0 +1,41 @@
+body {
+  background-color: rgba(143, 255, 255, 0.774);
+  color: #082b2b;
+  font-family: 'Nunito', sans-serif;
+}
+body .gallery {
+  border: 1px solid #041b1b;
+}
+body .gallery img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 10px;
+}
+body .gallery .music {
+  padding: 10px 20px;
+  display: inline-block;
+}
+body .drop-area {
+  border-radius: 15px;
+  padding: 100px 200px;
+  display: inline-block;
+  background-color: #10d4d4;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+body .drop-area i {
+  font-size: 40px;
+  cursor: pointer;
+  -webkit-transition: 0.4s all ease-in-out;
+  transition: 0.4s all ease-in-out;
+}
+body .drop-area i:hover {
+  -webkit-transform: translateY(-30%);
+          transform: translateY(-30%);
+}
+body .drop-area:hover {
+  background-color: #097474;
+  color: white;
+}
